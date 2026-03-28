@@ -42,6 +42,11 @@ This repository contains code for training and evaluating a Point Cloud Transfor
      - Normalizes and aligns point clouds.  
      - Samplings to fixed point counts (e.g., 2048 points).  
 
+6. **`model.t7`**  
+   - **Purpose**: Model training weight file.
+   - **Features**:  
+     - Stores the trained model parameters. Can be loaded for inference or resume training. 
+
 ---
 
 ## Setup
